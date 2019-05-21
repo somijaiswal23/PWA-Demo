@@ -1,0 +1,18 @@
+
+
+{
+  "name": "Plotgress",
+  "short_name": "Plotgress",
+  "icons": [
+    {
+      "src": "/android-chrome-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/index.html",
+  "gcm_sender_id": "526525445809"
+}

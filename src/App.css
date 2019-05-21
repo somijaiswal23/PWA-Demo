@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#addToHomeScreen{
+    display: block;
+    margin-top: 20px;
+    padding: 0px;
+    display: none;
+}
+
+#addToHomeScreen img{
+    max-width: 57px;
+    margin: 10px;
+    float: left;
+}
+
+#addToHomeScreen button{
+    background-color: #264de4;
+    color: white;
+    border: 1px #2965f1 solid;
+    margin: 5px 10px;
+}
